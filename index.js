@@ -11,7 +11,7 @@ app.post('/check-email', (req, res) => {
         return res.status(400).send('Email is required');
     }
 
-    qedmail.checkEmail(email)
+    qedmail.chesddsckEmail(email)
         .then(isValid => {
             res.json({ email, isValid });
         })
